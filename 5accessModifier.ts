@@ -15,9 +15,6 @@ class BankAccount {
     }
 }
 
-
-
-
 const sajidAccount = new BankAccount(1001, 'Sajid', 1000, '1234');
 sajidAccount.addBalance(500);
 console.log(sajidAccount);
